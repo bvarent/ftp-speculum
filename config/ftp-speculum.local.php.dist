@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * This file contains configuration options that can or should be overridden
+ *  in the local scope.
+ * It is typically copy/pasted to the config/autoload folder of the application,
+ *  without the .dist extensions.
+ */
+
+namespace Bvarent\FtpSpeculum;
+
+return [
+    Module::CONFIG_KEY => [
+        MirrorerOptions::MODULE_CONFIG_SUBKEY => [
+            'source_dir' => null, // set me
+            'target_url' => null, // set me
+        ],
+    ],
+];

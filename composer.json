@@ -1,0 +1,24 @@
+{
+    "name": "bvarent/ftp-speculum",
+    "description": "Mirrors files between a local dir and a remote FTP location. Using lftp.",
+    "authors": [{
+        "name": "bvarent",
+        "email": "r.arents@bva-auctions.com"
+    }],
+    "keywords": [
+        "ftp",
+        "lftp",
+        "zf2",
+        "module"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^5.5",
+        "zendframework/zendframework": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bvarent\\FtpSpeculum\\": "src/"
+        }
+    }
+}
